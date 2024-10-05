@@ -11,9 +11,23 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Mvc.StorageAccount.Demo", "
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Console.QueueConsumer.Demo", "Console.QueueConsumer.Demo\Console.QueueConsumer.Demo.csproj", "{6EB8450E-5D31-4F12-8446-0A3CBB1D163A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Console.ServiceBusSender.Demo", "Console.ServiceBusSender.Demo\Console.ServiceBusSender.Demo.csproj", "{81E04D2A-F779-4B97-B658-2A665951CE89}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Console.ServiceBusSender.Demo", "Console.ServiceBusSender.Demo\Console.ServiceBusSender.Demo.csproj", "{81E04D2A-F779-4B97-B658-2A665951CE89}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Console.ServiceBusReceiver.Demo", "Console.ServiceBusReceiver.Demo\Console.ServiceBusReceiver.Demo.csproj", "{B501EFF6-1F6B-436E-B35C-3212F15F579C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Console.ServiceBusReceiver.Demo", "Console.ServiceBusReceiver.Demo\Console.ServiceBusReceiver.Demo.csproj", "{B501EFF6-1F6B-436E-B35C-3212F15F579C}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FunctionApp.Demo", "FunctionApp.Demo\FunctionApp.Demo.csproj", "{AAD40272-CE8A-423C-A7D2-249A1F158E97}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Microservice1Api.Containers.Demo", "Microservice1Api.Containers.Demo\Microservice1Api.Containers.Demo.csproj", "{3920FDCE-802C-4FEF-8EFF-65B266920F13}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Microservice2Api.Containers.Demo", "Microservice2Api.Containers.Demo\Microservice2Api.Containers.Demo.csproj", "{050E4991-E23D-4E3B-9D2D-0CF1609952B1}"
+EndProject
+Project("{E53339B2-1760-4266-BCC7-CA923CBCF16C}") = "docker-compose", "docker-compose.dcproj", "{70315846-0180-4A59-AF45-495BBAA0A118}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ClassifiedsAzureADAuth.API", "ClassifiedsAzureADAuth.API\ClassifiedsAzureADAuth.API.csproj", "{2AC94894-631A-4BC4-8D0B-3AA0401CCC3A}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ClassifiedsAzureADAuth.API2", "ClassifiedsAzureADAuth.API2\ClassifiedsAzureADAuth.API2.csproj", "{1A2C8EF7-36C6-4656-B610-D28CBD935241}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ClassifiedsAzureADAuth.Client", "ClassifiedsAzureADAuth.Client\ClassifiedsAzureADAuth.Client.csproj", "{1B7E351C-B93F-411F-AB0B-860BBE60AFEE}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -45,6 +59,34 @@ Global
 		{B501EFF6-1F6B-436E-B35C-3212F15F579C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B501EFF6-1F6B-436E-B35C-3212F15F579C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B501EFF6-1F6B-436E-B35C-3212F15F579C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AAD40272-CE8A-423C-A7D2-249A1F158E97}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AAD40272-CE8A-423C-A7D2-249A1F158E97}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AAD40272-CE8A-423C-A7D2-249A1F158E97}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AAD40272-CE8A-423C-A7D2-249A1F158E97}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3920FDCE-802C-4FEF-8EFF-65B266920F13}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3920FDCE-802C-4FEF-8EFF-65B266920F13}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3920FDCE-802C-4FEF-8EFF-65B266920F13}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3920FDCE-802C-4FEF-8EFF-65B266920F13}.Release|Any CPU.Build.0 = Release|Any CPU
+		{050E4991-E23D-4E3B-9D2D-0CF1609952B1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{050E4991-E23D-4E3B-9D2D-0CF1609952B1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{050E4991-E23D-4E3B-9D2D-0CF1609952B1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{050E4991-E23D-4E3B-9D2D-0CF1609952B1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{70315846-0180-4A59-AF45-495BBAA0A118}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{70315846-0180-4A59-AF45-495BBAA0A118}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{70315846-0180-4A59-AF45-495BBAA0A118}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{70315846-0180-4A59-AF45-495BBAA0A118}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2AC94894-631A-4BC4-8D0B-3AA0401CCC3A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2AC94894-631A-4BC4-8D0B-3AA0401CCC3A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2AC94894-631A-4BC4-8D0B-3AA0401CCC3A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2AC94894-631A-4BC4-8D0B-3AA0401CCC3A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1A2C8EF7-36C6-4656-B610-D28CBD935241}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1A2C8EF7-36C6-4656-B610-D28CBD935241}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1A2C8EF7-36C6-4656-B610-D28CBD935241}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1A2C8EF7-36C6-4656-B610-D28CBD935241}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1B7E351C-B93F-411F-AB0B-860BBE60AFEE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1B7E351C-B93F-411F-AB0B-860BBE60AFEE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1B7E351C-B93F-411F-AB0B-860BBE60AFEE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1B7E351C-B93F-411F-AB0B-860BBE60AFEE}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
